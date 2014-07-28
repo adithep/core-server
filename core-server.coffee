@@ -1,10 +1,5 @@
 Accounts.validateNewUser ->
   true
-DATA.find({}).observeChanges({
-  added: (id, user) ->
-    console.log id
-
-})
 
 
 Meteor.startup ->
