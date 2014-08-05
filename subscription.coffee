@@ -5,11 +5,13 @@ Meteor.publish "list", ->
       "countries"
       "titles"
       "currencies"
+      "companies"
       "input_forms"
       "service_n"
       "_tri"
-      "_spa"
+      "_ctl"
+      "def_tem"
+      "templates"
       "paths"
-      "tags"
     ]}
   }, {fields: {_dt: 0}})
