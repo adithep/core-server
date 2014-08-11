@@ -7,11 +7,12 @@ Package.on_use(function (api, where) {
   api.use([
     'bads:core-lib',
     'bads:mongo-aggregation',
+    'arunoda:kadira',
     'accounts-base',
     'accounts-password',
     'coffeescript'
   ]);
-  api.add_files(['core-server.coffee', 'subscription.coffee'], 'server');
+  api.add_files(['core-server.coffee', 'kadira.js', 'subscription.coffee'], 'server');
 });
 
 Package.on_test(function (api) {
