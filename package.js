@@ -5,11 +5,11 @@ Package.describe({
 Package.on_use(function (api, where) {
   api.versionsFrom("METEOR-CORE@0.9.0-atm");
   api.use([
-    'bads:core-lib',    
+    'bads:core-lib',
     'bads:mongo-aggregation',
     'accounts-base',
     'accounts-password',
-    'coffeescript',
+    'coffeescript'
   ]);
   api.add_files(['core-server.coffee', 'subscription.coffee'], 'server');
 });

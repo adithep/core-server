@@ -6,6 +6,7 @@ Meteor.publish "list", ->
       "titles"
       "currencies"
       "companies"
+      "img"
       "input_forms"
       "service_n"
       "_tri"
