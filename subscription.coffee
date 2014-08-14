@@ -1,18 +1,2 @@
 Meteor.publish "list", ->
-  DATA.find({
-    _s_n: {$in: [
-      "keys"
-      "countries"
-      "titles"
-      "currencies"
-      "companies"
-      "img"
-      "input_forms"
-      "service_n"
-      "_tri"
-      "_ctl"
-      "def_tem"
-      "templates"
-      "paths"
-    ]}
-  }, {fields: {_dt: 0}})
+  DATA.find({app_n_arr: "marathon"}, {fields: {_dt: 0}})
