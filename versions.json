@@ -14,7 +14,7 @@
     ],
     [
       "autoupdate",
-      "1.0.3"
+      "1.0.1"
     ],
     [
       "bads:core-lib",
@@ -198,6 +198,6 @@
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.10",
+  "toolVersion": "meteor-tool@1.0.11",
   "format": "1.0"
 }
