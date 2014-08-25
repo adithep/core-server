@@ -1,6 +1,7 @@
 Package.describe({
   summary: "Server Functionality",
-  version: "0.0.1"
+  version: "0.0.1",
+  name: "bads:core-server"
 });
 Package.on_use(function (api, where) {
   api.versionsFrom("METEOR-CORE@0.9.0-atm");
@@ -15,6 +16,6 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-  api.use("../packages/bads:core-server");
+  api.use("bads:core-server");
   api.add_files('core-server_tests.js', ['client', 'server']);
 });
