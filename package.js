@@ -12,7 +12,10 @@ Package.on_use(function (api, where) {
     'accounts-password',
     'coffeescript'
   ]);
-  api.add_files(['core-server.coffee', 'subscription.coffee'], 'server');
+  api.add_files([
+    'core-server.coffee',
+    'methods.coffee',
+    'subscription.coffee'], 'server');
 });
 
 Package.on_test(function (api) {
