@@ -4,7 +4,7 @@ Package.describe({
   name: "bads:core-server"
 });
 Package.on_use(function (api, where) {
-  api.versionsFrom("METEOR-CORE@0.9.0-atm");
+  api.versionsFrom('METEOR@0.9.2-rc1');
   api.use([
     'bads:core-lib',
     'bads:mongo-aggregation',
